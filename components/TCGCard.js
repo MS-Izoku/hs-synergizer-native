@@ -1,14 +1,7 @@
 import React from "react";
-import { Stylesheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
+import {cardStyle} from '../AppStyles.js'
 
-cardStyle = StyleSheet.create({
-  container: {},
-  cardName: {},
-  cost: {},
-  baseStat: {},
-  cardImg: {},
-  cardText: {}
-});
 
 const TCGCard = cardData => {
   const isDataUndefined = (data, replacementString) => {
